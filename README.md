@@ -4,7 +4,7 @@
 
 ## 1. Configuración del Aislamiento de Red
 
-![Captura de Red Interna en VirtualBox](/evidencias/configuracion_red.png)
+![Captura de Red Interna en VirtualBox](evidencia/configuracion_red.png)
 
 ### Justificación Técnica
 Para este laboratorio inicial, se ha configurado el adaptador en modo **Red Interna**. La Red Interna funciona como un búnker total. En este modo, la VM no tiene acceso a Internet ni a tu computadora Host. Solo puede hablar con otras máquinas virtuales que estén configuradas en la misma Red Interna. Es el entorno más seguro para análisis de malware o pruebas controladas. 
@@ -12,7 +12,7 @@ Se ha descartado por completo el uso del modo **Adaptador Puente**. Este modo ha
 
 ## 2. Protección del Estado Inicial (Snapshot)
 
-![Captura del primer Snapshot](/evidencias/snapshot_limpio.png)
+![Captura del primer Snapshot](evidencia/snapshot_limpio.png)
 
 **Nombre del Snapshot:** Instalación Base Limpia
 **Propósito:** Garantizar un punto de retorno seguro tras la instalación limpia del sistema operativo invitado, permitiendo revertir cualquier configuración errónea o infección por malware durante futuras prácticas.
